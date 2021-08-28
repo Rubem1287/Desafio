@@ -37,15 +37,7 @@ namespace Desafio.Domain.Entittes
         public Usuario(string name, string password, DateTime birthday, int phone, int cellphone, string email, string adress, string photo)
         {
             ValidateUsuario(name, password, birthday, phone, cellphone, email, adress, photo);
-            //Name = name;
-            //Password = password;
-            //BirthDay = birthday;
-            //Phone = phone;
-            //CellPhone = cellphone;
-            //Email = email;
-            //Adress = adress;
-            //Phone = phone;
-            //Photo = photo;
+        
         }
 
         public Usuario(Tarefas tarefas, int tarefasId)
